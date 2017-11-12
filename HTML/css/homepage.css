@@ -1,0 +1,217 @@
+header{
+	background-color : #000000;
+	height: 180px; 
+	width: 100%;
+
+}
+#margin{
+	margin: 0;
+	
+}
+
+
+
+
+/*css menu */
+#menu{
+	width: 100%;
+	height: 40px;
+	background-color:black;
+	position: relative; 
+}
+
+
+
+.widged li a{
+	color: #333333;
+	border-bottom: 10px dotted #cccccc; /*mengatur titik dibawah kalimat */
+	text-decoration: none; /* untuk menghilangkan garis bawah */
+	display: block;
+	margin-bottom: 5px;
+	padding: 15px 15px 3px 10px;
+}
+
+
+
+
+
+/*pengaturan gambar yg di halaman depan*/
+.gambardepan{
+	float: left;
+	height: 612px;
+	width: 900px;
+	margin-right: 5px;
+	margin-top: 3px;
+	padding: 1px;
+	border:1px solid #dddddd;
+}
+.gambarpanda{
+	float: left;
+	height: 200px;
+	width: 200px;
+	margin-right: 5px;
+	margin-top: 3px;
+	padding: 1px;
+	border:1px solid #dddddd;
+}
+
+
+
+
+
+form {
+float: right;
+    width:600px; /* untuk menggeser ke kiri dan kanan kolom search */
+    margin:30px auto; /* untuk menggeser ke atas dan ke bawah kolom search */
+}
+.search {
+    padding:10px 50px;
+    background:grey;
+    border:0px solid grey;
+}
+.button {
+    position:relative;
+    padding:10px 10px;
+    left:-8px;
+    border:0px solid red;
+    background-color:red;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+
+
+
+
+/*css menu */
+#menu{
+	position: relative; 
+}
+
+/* pengaturan menu */
+#menu ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+
+}
+
+
+
+#menu ul li a {
+	float: left;
+	color: #d4d4d4;
+	padding: 5px 55px; /* mengatur besar menu */
+	text-decoration: none;
+	background: red;
+	border-left: 1px solid #3c4042;
+	border-right: 4px solid #3c4042;
+	text-shadow: 0-1px 1px rgba(0,0,0.6);
+	font-size: 25px;
+
+}
+#menu ul li a:hover{
+color: white;
+background: #3c4042;
+}
+
+
+
+
+/*pengaturan menu kanan terpopuler*/
+#sidebar{
+	padding: 5px;
+	width: 27%;
+	background-color:none;
+	position: relative;
+	float: right;
+
+}
+.widged li a:hover{
+	color: blue;
+}
+
+
+
+/*warna kolom nomor terpopuler*/
+td{
+	background-color: lightblue;
+
+}
+
+/*mengatur tabel terpopuler*/
+.widged ul{
+	margin: 0px 0px 0px 0px; 
+	padding: 0px 0px 0px 0px;
+	list-style-type:none;
+	
+}
+.widged li{
+	padding: 10px 10px 10px 10px; /*top right bottom left*/
+	background-position: left;
+	background-repeat: no-repeat;
+	
+	background-color: pink; /*untuk mewarnai sisi atas tabel*/
+}
+.widged li a{
+	color: #333333;
+	border-bottom: 5px dotted #cccccc; /*mengatur titik dibawah kalimat */
+	margin-bottom: 5px;
+	font-size: 30px;
+	background-color: pink; /*untuk mewarnai sisi tengah tabel*/
+}
+
+
+
+
+#isi{
+	padding: 1px;
+	position: relative;
+	margin-top: 23px;
+}
+
+
+/*pengaturan isi postingan*/
+.isiposting h2{
+	
+}
+.gambarpost{	/*untuk mengatur gambar postingan*/
+	margin-left: 500px;
+	float: center;
+	margin-top: 10px;
+	height: 600px;
+	width: 1000px;
+}
+.text{  	/*untuk mengatur text postingan */
+	text-align: justify;
+	padding-right: 2em;
+	line-height: 35px; /*spasi bawah*/
+	width: 800px; /*lebar text*/
+	font-family: "calibri light";
+}
+
+
+
+footer {
+	border-top: solid black 1px;
+	height: 30px;
+	width: 100%;
+	top:950px;
+	position: absolute;
+	text-align: center;
+	font-size: 30px;
+
+}
+#gambarbawah {
+	width: 100%;
+	top:850px;
+	position: absolute;
+	text-align: center;
+
+}
+#gambarbawah img {
+	width: 250px;
+}
+
